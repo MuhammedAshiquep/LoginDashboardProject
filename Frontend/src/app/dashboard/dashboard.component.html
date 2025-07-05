@@ -1,0 +1,22 @@
+<div class="dashboard-container">
+    <div class="header">
+        <h2>Dashboard Overview</h2>
+        <button (click)="onLogout()">Logout</button>
+    </div>
+
+    <div class="chart-card">
+        <h3>Status Distribution</h3>
+        <div class="chart-wrapper">
+            <!-- The ng2-charts component -->
+            <canvas baseChart [options]="barChartOptions" [data]="barChartData" [type]="barChartType">
+            </canvas>
+        </div>
+    </div>
+
+    <div class="info-section">
+        <p>Welcome to your secure dashboard! This data is fetched from a protected API endpoint using your JWT token.
+        </p>
+        <p>The login API is protected by a rate limit of 5 requests per minute.</p>
+    </div>
+</div>
+  

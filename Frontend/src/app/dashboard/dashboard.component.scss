@@ -1,0 +1,126 @@
+/* Styles for the main dashboard container */
+.dashboard-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    /* Keep the card background white */
+    font-family: 'Inter', sans-serif;
+    /* Using the Inter font */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    /* Space between sections */
+}
+
+/* Styles for the header section (title and logout button) */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2em;
+    margin: 0;
+}
+
+.header button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    /* Red background for logout button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
+}
+
+.header button:hover {
+    background-color: #c82333;
+    /* Darker red on hover */
+}
+
+/* Styles for the chart card */
+.chart-card {
+    background-color: #e0f2f7;
+    /* Light blue background for the chart card */
+    border: 1px solid #b3e5fc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.chart-card h3 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+/* Wrapper for the chart canvas to control its dimensions */
+.chart-wrapper {
+    position: relative;
+    height: 350px;
+    /* Fixed height for the chart area */
+    width: 100%;
+}
+
+/* Ensure canvas takes full width and height of its wrapper */
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Styles for the info section at the bottom of the dashboard */
+.info-section {
+    background-color: #e9f7ef;
+    /* Light green background */
+    border: 1px solid #d4edda;
+    border-radius: 5px;
+    padding: 15px;
+    color: #155724;
+    /* Dark green text */
+    font-size: 0.95em;
+}
+
+.info-section p {
+    margin: 5px 0;
+}
+
+/* Basic responsive adjustments */
+@media (max-width: 768px) {
+    .dashboard-container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .chart-wrapper {
+        height: 280px;
+        /* Adjust height for smaller screens */
+    }
+}
+
+/* Apply background color to the body for the entire page */
+body {
+    background-color: #f0f8ff;
+    /* A very light, calming blue (AliceBlue) - close to "creatuce" feeling */
+}
