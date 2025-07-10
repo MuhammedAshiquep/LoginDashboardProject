@@ -6,8 +6,8 @@ import { AuthService } from './auth.service';
 import { map } from 'rxjs/operators';
 import { Router } from '@angular/router';
 
-// Auth Guard to protect routes (CanActivateFn can be used directly in routes)
-const authGuard = (route: any, state: any) => {
+// Auth Guard function
+const authGuard = () => {
   const authService = inject(AuthService);
   const router = inject(Router);
 

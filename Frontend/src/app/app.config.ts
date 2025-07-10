@@ -1,22 +1,35 @@
-import { ApplicationConfig, importProvidersFrom } from '@angular/core';
+import { ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import {
   provideHttpClient,
   withInterceptorsFromDi,
-} from '@angular/common/http'; // For HttpClient and interceptors
-import { NgChartsModule } from 'ng2-charts'; // For NgChartsModule
-import { AuthInterceptor } from './auth.interceptor'; // Your custom interceptor
+} from '@angular/common/http';
+import { AuthInterceptor } from './auth.interceptor';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { routes } from './app.routes';
 
-import { routes } from './app.routes'; // Import your standalone routes
+// Import and register Chart.js components
+import {
+  Chart,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
+
+// Register Chart.js components
+Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideRouter(routes), // Configure routing
-    provideHttpClient(withInterceptorsFromDi()), // Configure HttpClient with DI-based interceptors
-    // Provide your custom interceptor
-    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
-    // Import NgChartsModule for its providers (if any) and directives/components
-    importProvidersFrom(NgChartsModule),
+    provideRouter(routes),
+    provideHttpClient(withInterceptorsFromDi()),
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: AuthInterceptor,
+      multi: true,
+    },
   ],
 };
