@@ -53,13 +53,14 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("peaceful-bombolone-786a04.netlify.app")
+        policy.WithOrigins()
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
 });
 
 var app = builder.Build();
+app.UseRouting();
 
 // Use Middleware pipeline
 app.UseIpRateLimiting();    // Use AspNetCoreRateLimit middleware
