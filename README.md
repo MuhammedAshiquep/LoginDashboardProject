@@ -78,17 +78,17 @@ Runs on: http://localhost:4200
 ## ▶️ ** How to Use **
 Open http://localhost:4200 or use the Netlify link
 
-Login using:
+⭐ Login using:
 
 Username: admin
 
 Password: password
 
-On success, you'll be redirected to the dashboard
+⭐ On success, you'll be redirected to the dashboard
 
-View pie chart of ticket statuses
+⭐ View pie chart of ticket statuses
 
-Logout to test token expiration
+⭐ Logout to test token expiration
 
 📡 API Endpoints
 🔐 POST /api/Auth/login
@@ -108,18 +108,18 @@ Logout to test token expiration
 
 🧠 How It Works
 ✅ JWT Authentication
-Token generated on login
+⭐ Token generated on login
 
-Stored in localStorage
+⭐ Stored in localStorage
 
-Auto-attached to requests via HTTP interceptor
+⭐ Auto-attached to requests via HTTP interceptor
 
-Backend uses [Authorize] to secure endpoints
+⭐ Backend uses [Authorize] to secure endpoints
 
 🚫 Rate Limiting
-Max 5 login attempts per minute/IP
+⭐ Max 5 login attempts per minute/IP
 
-Returns 429 Too Many Requests on limit breach
+⭐ Returns 429 Too Many Requests on limit breach
 
-Uses AspNetCoreRateLimit package
+⭐ Uses AspNetCoreRateLimit package
 
