@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\Backend\\Backend.csproj": {}
+    "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\Backend\\Backend.csproj": {
+    "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\ashiq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ashiq\\AppData\\Roaming\\NuGet\\NuGet.Config",
