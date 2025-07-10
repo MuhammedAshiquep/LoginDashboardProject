@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiBaseUrl: 'logindashboardproject-production.up.railway.app/api',
+  apiBaseUrl: 'successful-imagination-production-e22d.up.railway.app/api',
 };
