@@ -35,9 +35,7 @@ A full-stack authentication and data visualization application built using **.NE
 ⭐ Node.js & npm
 
 ⭐ Angular CLI
----
 
-(Optional) Postman for API testing
 ## 🧪 **Test Credentials**
 
 ```bash
@@ -66,18 +64,12 @@ LocalStorage for token handling
 
 
 🖥️ Backend Setup
-bash
-Copy
-Edit
 cd backend
 dotnet restore
 dotnet run
 Runs on: http://localhost:5192
 
 💻 Frontend Setup
-bash
-Copy
-Edit
 cd frontend
 npm install
 ng serve --open
