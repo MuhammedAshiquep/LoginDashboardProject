@@ -1,5 +1,11 @@
+C:\Users\ashiq\source\repos\LoginDashboardProject\backend\bin\Debug\net7.0\dotnet-ou\web.config
 C:\Users\ashiq\source\repos\LoginDashboardProject\backend\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\ashiq\source\repos\LoginDashboardProject\backend\bin\Debug\net7.0\appsettings.json
+C:\Users\ashiq\source\repos\LoginDashboardProject\backend\bin\Debug\net7.0\dotnet-ou\appsettings.Development.json
+C:\Users\ashiq\source\repos\LoginDashboardProject\backend\bin\Debug\net7.0\dotnet-ou\appsettings.json
+C:\Users\ashiq\source\repos\LoginDashboardProject\backend\bin\Debug\net7.0\dotnet-ou\Backend.deps.json
+C:\Users\ashiq\source\repos\LoginDashboardProject\backend\bin\Debug\net7.0\dotnet-ou\Backend.runtimeconfig.json
+C:\Users\ashiq\source\repos\LoginDashboardProject\backend\bin\Debug\net7.0\dotnet-ou\global.json
 C:\Users\ashiq\source\repos\LoginDashboardProject\backend\bin\Debug\net7.0\global.json
 C:\Users\ashiq\source\repos\LoginDashboardProject\backend\bin\Debug\net7.0\Backend.exe
 C:\Users\ashiq\source\repos\LoginDashboardProject\backend\bin\Debug\net7.0\Backend.deps.json
