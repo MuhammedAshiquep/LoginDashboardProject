@@ -63,19 +63,19 @@ LocalStorage for token handling
 
 
 
-🖥️ Backend Setup
+##  🖥️ **Backend Setup**
 cd backend
 dotnet restore
 dotnet run
 Runs on: http://localhost:5192
 
-💻 Frontend Setup
+## 💻  **Frontend Setup**
 cd frontend
 npm install
 ng serve --open
 Runs on: http://localhost:4200
 
-▶️ How to Use
+## ▶️ ** How to Use **
 Open http://localhost:4200 or use the Netlify link
 
 Login using:
