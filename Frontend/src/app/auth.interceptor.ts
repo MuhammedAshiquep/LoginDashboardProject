@@ -7,8 +7,6 @@ import {
 } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-// Interceptors are typically provided at the application level, not directly imported by components.
-// No changes needed to the interceptor itself for standalone components.
 @Injectable()
 export class AuthInterceptor implements HttpInterceptor {
   constructor() {}

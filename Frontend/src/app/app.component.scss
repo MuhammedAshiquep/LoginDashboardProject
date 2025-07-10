@@ -1,0 +1,65 @@
+/* Full-page background */
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    /* Blue to light aqua */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Main wrapper for content */
+.main-container {
+    margin: auto;
+    padding: 2rem;
+    background: #ffffffcc;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+/* Error messages */
+.error-message {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}
