@@ -1642,11 +1642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\backend\\Backend.csproj",
+      "projectPath": "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\Backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\ashiq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\backend\\obj\\",
+      "outputPath": "C:\\Users\\ashiq\\source\\repos\\LoginDashboardProject\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ashiq\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1670,6 +1670,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1716,7 +1721,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
