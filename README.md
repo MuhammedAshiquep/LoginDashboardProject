@@ -123,21 +123,3 @@ Returns 429 Too Many Requests on limit breach
 
 Uses AspNetCoreRateLimit package
 
-🚀 Future Enhancements
-🔁 Refresh token flow
-
-👤 User registration page
-
-🧮 Move to real DB for user data
-
-🔐 Role-based access control
-
-🌐 Redis-based distributed rate limiting
-
-🎨 UI upgrade with Angular Material
-
-📊 Dynamic/live dashboard data
-
-✅ Unit and integration tests
-
-
