@@ -53,8 +53,8 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins()
-              .AllowAnyMethod()
+        policy.WithOrigins("https://peaceful-bombolone-786a04.netlify.app")
+            .AllowAnyMethod()
               .AllowAnyHeader();
     });
 });
