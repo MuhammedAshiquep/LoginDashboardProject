@@ -1,0 +1,6 @@
+
+[build]
+command = "dotnet publish -c Release -o dotnet-out"
+
+[deploy]
+startCommand = "dotnet dotnet-out/LoginDashboardProject.dll"

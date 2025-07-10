@@ -5,7 +5,9 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.WebHost.UseUrls("http://0.0.0.0:5192");
+// Use Railway's dynamic port
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5192";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
 // Add services
 builder.Services.AddControllers();
