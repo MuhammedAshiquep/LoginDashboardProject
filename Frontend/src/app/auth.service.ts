@@ -3,12 +3,14 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, BehaviorSubject, of } from 'rxjs'; // Import 'of'
 import { tap, catchError } from 'rxjs/operators'; // Import 'catchError'
 import { Router } from '@angular/router';
+import { environment } from '../environments/environment.prod';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:5192/api/Auth';
+  private apiUrl = `${environment.apiBaseUrl}/Auth`;
+
   // Initialize BehaviorSubject with the current token status from localStorage
   private loggedIn = new BehaviorSubject<boolean>(this.hasToken());
 
