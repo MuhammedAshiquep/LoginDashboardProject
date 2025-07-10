@@ -19,6 +19,9 @@ builder.Services.Configure<IpRateLimitOptions>(builder.Configuration.GetSection(
 // Add AspNetCoreRateLimit services
 builder.Services.AddInMemoryRateLimiting();
 
+// **Add this to fix the missing service error**
+builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
+
 // JWT Authentication
 builder.Services.AddAuthentication(options =>
 {
